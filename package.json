@@ -1,0 +1,19 @@
+{
+  "name": "springboot-angular-e2e",
+  "version": "1.0.0",
+  "description": "Playwright E2E test framework for Spring Boot + Angular application",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:e2e": "playwright test tests/e2e",
+    "test:auth": "playwright test tests/auth",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.4.0"
+  }
+}
